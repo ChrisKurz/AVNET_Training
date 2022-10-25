@@ -50,7 +50,7 @@ Creating a project from scratch is quite simple with Zephyr. Here is a descripti
 ## Open Project in Visual Studio Code
 
 4) Start Visual Studio Code. 
-5) Add the new project to Visual Stucio Code:
+5) Add the new project to Visual Studio Code:
 
    a) open __nRF Connect__ extension in the primary sidebar
    
