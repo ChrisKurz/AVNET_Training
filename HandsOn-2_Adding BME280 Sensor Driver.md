@@ -97,7 +97,7 @@ We have included the driver with the previous steps. Now we will use the driver 
 
     _c:/MyWorkspace/MyProject/src/main.c_ - add following line before __void main(void)__ function:
     
-       #include <zephyr/driver/sensor.h>
+       #include <zephyr/drivers/sensor.h>
 
 
 
