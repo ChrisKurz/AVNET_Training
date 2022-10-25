@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],		
+	"settings": {
+		"nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.1.0}",
+		"nrf-connect.topdir": "${nrf-connect.sdk:2.1.0}",
+		"nrf-connect.applications": [
+			"${workspaceFolder}\\MyProject_HandsOn-1",
+			"${workspaceFolder}\\MyProject_HandsOn-2",
+			"${workspaceFolder}\\MyProject_HandsOn-3"
+		]
+	}
+}

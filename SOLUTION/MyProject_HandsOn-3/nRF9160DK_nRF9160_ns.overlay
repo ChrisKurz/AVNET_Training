@@ -1,0 +1,14 @@
+/* Configuration of a BME280 device on an Arduino I2C bus.
+   -------------------------------------------------------
+   Device Address 0x76 is used here. Selected Pins:
+        SCL  ->  P0.31
+        SDA  ->  P0.30
+*/
+
+&arduino_i2c {
+        status = "okay";
+        bme280@76 {
+                compatible = "bosch,bme280";
+                reg = <0x76>;
+        };
+};
